@@ -499,13 +499,13 @@ nav > div > ul > li > a:hover::after {
     padding: 30px 0;
 }
 
-#awards-and-certificate h2 {
+.dark-mode #awards-and-certificate h2 {
     color: white;
 }
 
 .awards-grid {
     display: grid;
-    grid-template-columns: repeat(2, 50vw);
+    grid-template-columns: repeat(2, 48vw);
     grid-template-rows: repeat(2, 350px);
     justify-items: center;
     grid-gap: 20px;
